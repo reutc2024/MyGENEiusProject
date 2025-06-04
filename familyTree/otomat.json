@@ -1,0 +1,64 @@
+{
+  "Q0": {
+    "0": { "nextState": "Q1", "chance": 0.0, "message": "", "validInputs": ["0", "1", "2", "U"], "isFinal": false },
+    "1": { "nextState": "Q2", "chance": 0.15, "message": "", "validInputs": ["0", "1", "2", "U"], "isFinal": false },
+    "2": { "nextState": "Q3", "chance": 0.20, "message": "", "validInputs": ["0", "1", "2", "U"], "isFinal": false }
+  },
+  "Q1": {
+    "0": { "nextState": "Q4", "chance": 0.0, "message": "Input information for your grandfather- press 0 (healty) / 1 (carrier) or U to change your last choice", "validInputs": ["0", "1", "U"], "isFinal": false },
+    "1": { "nextState": "Q5", "chance": 0.02, "message": "Input information for your grandfather- press 0 (healty) / 1 (carrier) or U to change your last choice", "validInputs": ["0", "1", "U"], "isFinal": false }
+  },
+  "Q2": {
+    "0": { "nextState": "Q6", "chance": 0.0, "message": "Input information for your grandfather- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["0", "1", "2", "U"], "isFinal": false },
+    "1": { "nextState": "Q7", "chance": 0.03, "message": "Input information for your grandfather- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["0", "1", "2", "U"], "isFinal": false },
+    "2": { "nextState": "Q8", "chance": 0.07, "message": "Input information for your grandfather- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["0", "1", "2", "U"], "isFinal": false }
+  },
+  "Q3": {
+    "1": { "nextState": "Q9", "chance": 0.05, "message": "Input information for your grandfather- press 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["1", "2"], "isFinal": false },
+    "2": { "nextState": "Q10", "chance": 0.1, "message": "Input information for your grandfather- press 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["1", "2"], "isFinal": false }
+  },
+  "Q4": {
+    "0": { "nextState": "Q11", "chance": 0.0, "message": "Input information for your grandmather- press 0 (healty) / 1 (carrier) or U to change your last choice", "validInputs": ["0", "1", "U"], "isFinal": false },
+    "1": { "nextState": "Q12", "chance": 0.02, "message": "Input information for your grandmather- press 0 (healty) / 1 (carrier) or U to change your last choice", "validInputs": ["0", "1", "U"], "isFinal": false }
+  },
+  "Q5": {
+    "0": { "nextState": "Q13", "chance": 0.0, "message": "Input information for your grandmather- press 0 (healty) / 1 (carrier) or U to change your last choice", "validInputs": ["0", "1", "U"], "isFinal": false },
+    "1": { "nextState": "Q14", "chance": 0.02, "message": "Input information for your grandmather- press 0 (healty) / 1 (carrier) or U to change your last choice", "validInputs": ["0", "1", "U"], "isFinal": false }
+  },
+  "Q6": {
+    "1": { "nextState": "Q15", "chance": 0.03, "message": "Input information for your grandmather- press 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["1", "2", "U"], "isFinal": false },
+    "2": { "nextState": "Q16", "chance": 0.07, "message": "Input information for your grandmather- press 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["1", "2", "U"], "isFinal": false }
+  },
+  "Q7": {
+    "0": { "nextState": "Q17", "chance": 0.0, "message": "Input information for your grandmather- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["0", "1", "2", "U"], "isFinal": false },
+    "1": { "nextState": "Q18", "chance": 0.03, "message": "Input information for your grandmather- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["0", "1", "2", "U"], "isFinal": false },
+    "2": { "nextState": "Q19", "chance": 0.07, "message": "Input information for your grandmather- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["0", "1", "2", "U"], "isFinal": false }
+  },
+  "Q8": {
+    "0": { "nextState": "Q20", "chance": 0.0, "message": "Input information for your grandmather- press 0 (healty) / 1 (carrier) or U to change your last choice", "validInputs": ["0", "1", "U"], "isFinal": false },
+    "1": { "nextState": "Q21", "chance": 0.03, "message": "Input information for your grandmather- press 0 (healty) / 1 (carrier) or U to change your last choice", "validInputs": ["0", "1", "U"], "isFinal": false }
+  },
+  "Q9": {
+    "1": { "nextState": "Q22", "chance": 0.05, "message": "Input information for your grandmather- press 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["1", "2", "U"], "isFinal": false },
+    "2": { "nextState": "Q23", "chance": 0.1, "message": "Input information for your grandmather- press 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["1", "2", "U"], "isFinal": false }
+  },
+  "Q10": {
+    "1": { "nextState": "Q24", "chance": 0.05, "message": "Input information for your grandmather- press 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["1", "2", "U"], "isFinal": false },
+    "2": { "nextState": "Q25", "chance": 0.1, "message": "Input information for your grandmather- press 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["1", "2", "U"], "isFinal": false }
+  },
+  "Q11": { "B": { "nextState": "Q0", "chance": 0.0, "message": "Input information for your mother- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["B", "U"], "isFinal": true } },
+  "Q12": { "B": { "nextState": "Q0", "chance": 0.0, "message": "Input information for your mother- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["B", "U"], "isFinal": true } },
+  "Q13": { "B": { "nextState": "Q0", "chance": 0.0, "message": "Input information for your mother- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["B", "U"], "isFinal": true } },
+  "Q14": { "B": { "nextState": "Q0", "chance": 0.0, "message": "Input information for your mother- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["B", "U"], "isFinal": true } },
+  "Q15": { "B": { "nextState": "Q0", "chance": 0.0, "message": "Input information for your mother- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["B", "U"], "isFinal": true } },
+  "Q16": { "B": { "nextState": "Q0", "chance": 0.0, "message": "Input information for your mother- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["B", "U"], "isFinal": true } },
+  "Q17": { "B": { "nextState": "Q0", "chance": 0.0, "message": "Input information for your mother- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["B", "U"], "isFinal": true } },
+  "Q18": { "B": { "nextState": "Q0", "chance": 0.0, "message": "Input information for your mother- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["B", "U"], "isFinal": true } },
+  "Q19": { "B": { "nextState": "Q0", "chance": 0.0, "message": "Input information for your mother- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["B", "U"], "isFinal": true } },
+  "Q20": { "B": { "nextState": "Q0", "chance": 0.0, "message": "Input information for your mother- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["B", "U"], "isFinal": true } },
+  "Q21": { "B": { "nextState": "Q0", "chance": 0.0, "message": "Input information for your mother- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["B", "U"], "isFinal": true } },
+  "Q22": { "B": { "nextState": "Q0", "chance": 0.0, "message": "Input information for your mother- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["B", "U"], "isFinal": true } },
+  "Q23": { "B": { "nextState": "Q0", "chance": 0.0, "message": "Input information for your mother- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["B", "U"], "isFinal": true } },
+  "Q24": { "B": { "nextState": "Q0", "chance": 0.0, "message": "Input information for your mother- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["B", "U"], "isFinal": true } },
+  "Q25": { "B": { "nextState": "Q0", "chance": 0.0, "message": "Input information for your mother- press 0 (healty) / 1 (carrier) / 2 (sick) or U to change your last choice", "validInputs": ["B", "U"], "isFinal": true } }
+}
