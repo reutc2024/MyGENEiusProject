@@ -6,7 +6,7 @@ def find_cftr_mutations(dna_sequence):
         "AURKA": ["ATGCGT", "GCTTGA"],
         "TUBG1": ["CCGATT", "TTAAGC"],
         "BUB1": ["GGTACA", "TGCATC"]
-    }
+    } # מילון של מוטציות ידועות
 
     carriers = []  # רשימת המוטציות שנמצאו
 
